@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<img src="brasao_pb1.gif" alt="Brasão das Armas" title="Brasão das Armas" />
+  <meta charset="UTF-8">
+    <title>Menu Gestão SEIN</title>
+     <!-- chama o arquivo css externo -->
+    <link rel="stylesheet" type="text/css"  href="estilo.css" />
+   <nav>
+  <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Férias</a>
+		<ul>
+                      <li><a href="#">Visualizar</a></li>
+					  <li><a href="#">Cadastrar</a></li>
+                      <li><a href="#">Alterar</a></li>
+                      <li><a href="#">Excluir</a></li>                    
+                </ul>
+		</li>
+		
+            <li><a href="#">Funcionários</a>
+                <ul>
+                      <li><a href="#">Visualizar</a></li>
+					  <li><a href="CadFunc.html">Cadastrar</a></li>
+                      <li><a href="#">Alterar</a></li>
+                      <li><a href="#">Excluir</a></li>                    
+                </ul>
+            </li>
+        <li><a href="#">Sistemas</a>
+		<ul>
+                      <li><a href="#">Visualizar</a></li>
+					  <li><a href="#">Cadastrar</a></li>
+                      <li><a href="#">Alterar</a></li>
+                      <li><a href="#">Excluir</a></li>                    
+                </ul>
+		</li>
+        <li><a href="#">Sair</a></li> 
+		<li><a href="#">Help</a></li>
+</ul>
+</nav>
+</head>
+<body>
+<br><br\>
+<br><br\>
+<br><br\>
+<h1>Cadastro de Funcionário SEIN</h1>
+<h2>Endereço</h2>
+
+<br><br\>
+<form action="CadFunc2.html" method="post">
+    <div>
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" />
+    </div>
+	<div>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" />
+    </div>
+	<div>
+        <label for="list">UF:</label>
+         <input type="list" list="browsers">
+  <datalist id="browsers">
+    <option value="BA">
+    <option value="SP">
+    <option value="RN">
+    <option value="RJ">
+    <option value="GO">
+  </datalist>
+    </div>
+    <div>
+        <label for="comp">Complemento:</label>
+        <input type="text" id="comp" />
+    </div>
+    
+    <div class="button">
+        <button type="submit"><a href="CadFunc3.html">Avançar</button>
+        <button type="submit"><a href="CadFunc.html">Voltar</button>
+    </div>
+</form>
+</body>
+</html>
+
